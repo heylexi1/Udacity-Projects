@@ -1,0 +1,49 @@
+figcaption {
+  font-size: smaller
+}
+h1 {
+  text-decoration: underline;
+  text-align: center
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+ol {
+  list-style: none;
+}
+ul {
+  list-style: disc;
+}
+.highlight {
+  background: yellow
+}
+.numbered {
+  list-style: decimal;
+}
+.structure {
+  list-style: none;
+}
+.structure > li:nth-child(3),
+.structure > li:nth-child(8),
+.structure > li:nth-child(9),
+.structure > li:nth-child(11) {
+  text-indent: 1em;
+}
+.structure > li:nth-child(4),
+.structure > li:nth-child(5),
+.structure > li:nth-child(6),
+.structure > li:nth-child(7),
+.structure > li:nth-child(10) {
+  text-indent: 2em;
+}
+.subtopics > li {
+  font-weight: bold;
+  margin-bottom: 1em
+}
+.subtopics > li ul {
+  font-weight: normal;
+}
+.undersub {
+  list-style: circle
+}
