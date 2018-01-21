@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Getting Started with HTML</title>
+    <style>
+      img {
+          width: 100%;
+          height: auto;
+      }
+      ol {
+        list-style: none;
+      }
+      ul {
+        list-style: disc;
+      }
+      .subtopics > li {
+        font-weight: bold;
+        margin-bottom: 1em
+      }
+      .subtopics > li ul {
+        font-weight: normal;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="text-align:center"><u>Getting Started with HTML</u></h1>
+    <h2>Thinking Like a Programmer</h2>
+      <ol class="subtopics">
+        <li>Procedural Thinking
+          <ul>
+            <li>Creating clear steps to follow to solve a problem, especially for a computer
+            </li>
+          </ul>
+        </li>
+        <li>Abstract Thinking
+          <ul>
+            <li>Taking knowledge of one concept and using it to solve a new problem</li>
+            <li>Seeing generality amongst seemingly different things</li>
+            <li>Abstraction to avoid unnecessary repetition of work</li>
+          </ul>
+        </li>
+        <li>Systematic Debugging
+          <ul>
+            <li>Systematically identify problems and causes
+              <ol style="list-style:decimal">
+                <li>Collect evidence (what makes this program fail?)</li>
+                <li>Generate theories (what may have caused this problem?)</li>
+                <li>Test those theories (if my theory is correct, how could I find out?)</li>
+                <li>Fix the problem</li>
+              </ol>
+            </li>
+          </ul>
+        </li>
+        <li>Technological Empathy
+          <ul>
+            <li>Understanding how the computer sees things (AKA <em>computer empathy</em>)</li>
+          </ul>
+        </li>
+        <li>Systems Thinking
+          <ul>
+            <li>Break a big problem down into smaller pieces, or component pieces</li>
+            <li>Programmers do this when making a plan on paper that details how a program will work</li>
+            <li>Taking a big problem and breaking the solution into steps (e.g., step one, step two, etc.)</li>
+          </ul>
+        </li>
+      </ol>
+    <h2>Study Tips from Student Experience</h2>
+      <ul>
+        <li>Study for at least an hour everyday.</li>
+        <li>Every bit counts - use the mobile app.</li>
+        <li>Use quizzes to practice, practice, practice!</li>
+        <li>Try hard and try often.</li>
+        <li>Stick to your schedule.</li>
+        <li>Search for answers on your own relentlessly, and read about things on your own.</li>
+        <li>Be an active member of your community, help other students, and ask for help.</li>
+        <li style="background:yellow"><u>Don’t need to memorize everything</u>, too many facts to remember. Understand key ideas and know where to get more info when necessary.</li>
+        <li>Writing code that people can easily read is important to computer programming. Structuring the code well is a big part of writing code.</li>
+      </ul>
+    <h2>The World Wide Web</h2>
+      <ol class="subtopics">
+        <li>Technological Empathy
+          <ul>
+            <li>Basic understanding of how the internet works</li>
+            <li>How users, computers, servers, HTTP, and the internet all fit together</li>
+          </ul>
+        </li>
+        <li>Intro to the Web
+          <ul>
+            <li><em>HTML</em> - Hyper Text Markup Language</li>
+            <li><em>URLs</em> - Uniform Resource Locator (AKA web address)</li>
+            <li><em>HTTP</em> - Hypertext Transfer Protocol</li>
+            <li>Web applications - front end, user interface</li>
+          </ul>
+        </li>
+        <li>World Wide Web
+          <ul>
+            <li>Collection of HTML documents</li>
+            <li>HTML is what glues everything together</li>
+            <li>Includes documents, images, and videos</li>
+            <li><em>Hyperlinks</em> (links) - links between pages, makes web "web-like"</li>
+            <li>Invented in the 1990's</li>
+          </ul>
+        </li>
+      </ol>
+    <h2>HTML</h2>
+      <ol class="subtopics">
+        <li>Documents
+          <ul>
+              <li>Text content - what you read</li>
+              <li>Markup - what it looks like</li>
+              <li>References to other documents - e.g. images and videos</li>
+              <li>Links to other pages</li>
+          </ul>
+        </li>
+        <li>Components of the Web
+          <ul>
+            <li><em>Client</em> - your computer and browser</li>
+            <li>Internet</li>
+            <li>Servers</li>
+            <li>HTTP - where clients and servers interact</li>
+          </ul>
+        </li>
+      </ol>
+    <h2>HTML Markup</h2>
+      <ol class="subtopics">
+        <li>HTML Elements
+          <ul>
+            <li>Tell a web browser how to display content on a web page</li>
+          </ul>
+        </li>
+      </ol>
+      <img src="https://mdn.mozillademos.org/files/9347/grumpy-cat-small.png" alt="HTML Element">
+      <figcaption><a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started">Grumpy Cat Element</a> by <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started$history">Mozilla Contributors</a> is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0.</a></figcaption>
+      <ol class="subtopics">
+        <li>Examples:
+          <ul style="list-style:none">
+            <li>&lt;b&gt; b tag - bold</li>
+            <li>&lt;em&gt; em tag - italicize</li>
+          </ul>
+        </li>
+        <li><em>HTML Attributes</em></li>
+      </ol>
+        <p></p>
+        <p>Some elements accept additional values in their opening tags.</p>
+        <p>Attributes provide additional information to the browser. (href, src)</p>
+        <p>&lt;<u>Tag Attribute</u>=”value”&gt;contents&lt;/tag&gt;</p>
+        <p>Tags can have multiple attributes</p>
+        <p>Anchor - &lt;a&gt; a tag</p>
+        <p>Href - attribute name</p>
+        <p>&lt;a href=”link.com”&gt;link&lt;/a&gt;</p>
+        <p>Image Tag</p>
+        <p><img> - images</p>
+                <p><img src=”<u>www.image.com</u>” alt=”text”></p>
+                <p>Opening tag</p>
+                <p>Attribute - source - src</p><p>Web link</p><p>Attribute - alternate - alt - “required” html parsers don’t like it if it’s not there</p><p>	Broken requests - will show the alt text if link doesn’t work</p><p><strong>Images don’t have closing tag </strong></p><p><strong>VOID TAG - tag that has no content</strong></p><p><strong>No content to an image</strong></p><p><br> break tag, make text appear on two lines instead of one</p><p>This text is really<br></p><p>too long on one line.</p><p>VOID tag</p><p>Whitespace -  new lines, tabs, spaces - all turn into a single space</p><p>Text on multiple lines turn into one line</p><p>Can enter multiple br tags if you want multiple lines between</p><p><p> paragraph can be used in place of <br> not void tag, has content</p><p>	<p>content</p> will render as one paragraph</p><p>Inline vs. Block (box)</p><p>Br tag is inline - ended the line</p><p>P tag is block - makes an invisible box - creates a box with modifiable height and width</p><p>B tag, em, img - inline</p><p>Container elements</p><p>Span - inline</p><p>Div - block</p><p>These elements don’t do anything other than contain their content</p><p>Can attach styles to them (attributes, css class)</p><p>Div works like a p tag</p><p><a> anchor tag</p><p><!DOCTYPE html> - doctype</p><p><html> surrounds entire document, opening</p><p>  <head> metadata, javascript, css</p><p>    <meta charset="utf-8"></p><p>   <title>Title</title> - title of page, appears in browser tab</p><p>  </head></p><p>  <body> - contents of document</p><p>    <p>I am going to <em>learn</em> to <b>love</b> HTML.</p></p><p>      <a href="https://www.udacity.com">This website is my favorite</a></p><p>    <p></p><p>      <img src="Images/2017-03-02-15-48-51-978.jpg" width="360" height=505 alt="Me!"></p><p>    </p></p><p>    <form>Test</form></p><p>    <a>Test</a></p><p>  </body></p><p></html> closing</p><p>Html</p><p>	<head></p><p>	Title, css, js</p><p>	</head></p><p>	<body></p><p>	Contents</p><p>	</body></p><p></p><p>HTML Document Structure</p><p><b>content</b> - simple markup</p>
+                  <li>Indent is a visual marker that a new idea has begun. Indentation persists throughout an idea, until closing tag. Indentation level increases when idea begins, and decreases when idea is finished.</li>
+  </body>
+</html>
